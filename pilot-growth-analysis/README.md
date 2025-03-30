@@ -51,12 +51,12 @@ The analysis combines two R scripts with data from the Klein Data Pipeline:
 
 ## How to View the Code and Outputs
 
-Scripts and outputs are hosted in the [`financial-analysis`](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/financial-analysis) directory:
-- [`ltv_cac_analysis.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/scripts/ltv_cac_analysis.R): LTV/CAC trends and visualization (pilot phase).
-- [`cohort_retention_by_join_month.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/scripts/cohort_retention_by_join_month.R): Retention analysis by first payment month (Aug, Sep, Oct 2023).
+Scripts and outputs are hosted in the [`pilot-growth-analysis`](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/pilot-growth-analysis) directory:
+- [`ltv_cac_analysis.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/pilot-growth-analysis/scripts/ltv_cac_analysis.R): LTV/CAC trends and visualization (pilot phase).
+- [`cohort_retention_by_join_month.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/pilot-growth-analysis/scripts/cohort_retention_by_join_month.R): Retention analysis by first payment month (Aug, Sep, Oct 2023).
 - **Plots**:
-  - [LTV/CAC Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/graphs/LTV_CAC_Graph_Pilot.jpeg): Dual-axis plot of LTV, CAC, and ratio.
-  - [Cohort Retention Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/graphs/cohort_retention_by_join_month.jpeg): Retention by join month cohort.
+  - [LTV/CAC Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/pilot-growth-analysis/graphs/LTV_CAC_Graph_Pilot.jpeg): Dual-axis plot of LTV, CAC, and ratio.
+  - [Cohort Retention Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/pilot-growth-analysis/graphs/cohort_retention_by_join_month.jpeg): Retention by join month cohort.
 
 *Data source*: Subscription data from the [Klein Data Pipeline](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/data-processing) (not uploaded).
 
