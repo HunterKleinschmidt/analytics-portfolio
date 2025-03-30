@@ -1,12 +1,12 @@
-# Financial Projections Analysis
+# Pilot Growth Analysis
 
 ## Reflections on Bias and Ethics
 
-This project pushed me to grapple with bias and ethics in data analysis. Working with financial projections from our fitness app’s pilot campaign, I faced a key challenge: how to tell a truthful story with modest data without overreaching? Early attempts showed a weak LTV/CAC trend (R² = 0.09) due to recent, incomplete campaigns. By rescoping to the pilot phase (Aug 2023 - Mar 2024) and uncovering cohort stickiness by first payment month, I refined the analysis ethically—balancing data integrity with insight. This work secured $30,000 in funding, proving its impact, and honed my analytical skills for real-world challenges.
+This project pushed me to grapple with bias and ethics in data analysis. Working with data from our fitness app’s pilot campaign, I faced a key challenge: how to tell a truthful story with modest data without overreaching? Early attempts showed a weak LTV/CAC trend (R² = 0.09) due to recent, incomplete campaigns. By rescoping to the pilot phase (Aug 2023 - Mar 2024) and uncovering cohort stickiness by first payment month, I refined the analysis ethically—balancing data integrity with insight. This work secured $30,000 in funding, proving its impact, and honed my analytical skills for real-world challenges.
 
 ## Overview
 
-This financial analysis explored Lifetime Value to Customer Acquisition Cost (LTV/CAC) trends using pilot data from our fitness app (August 2023 to March 2024), contributing to a $30,000 funding win. Built in R, Version 2 of the project analyzes the post-launch period, revealing how stickiness in early cohorts (Aug, Sep, Oct 2023) drove a drop in CAC and sustained LTV. The output—a dual-axis LTV/CAC plot with regression trendline (R² = 0.65)—was enhanced by cohort retention analysis using subscription data from our [Klein Data Pipeline](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/data-processing). This work showcases my expertise in financial modeling, data visualization, and retention analysis for data-driven decision-making.
+This analysis explored Lifetime Value to Customer Acquisition Cost (LTV/CAC) trends and cohort retention using pilot data from our fitness app (August 2023 to March 2024), contributing to a $30,000 funding win. Built in R, Version 2 of the project analyzes the post-launch period, revealing how stickiness in early cohorts (Aug, Sep, Oct 2023) drove a drop in CAC and sustained LTV. The output—a dual-axis LTV/CAC plot with regression trendline (R² = 0.65)—was enhanced by cohort retention analysis using subscription data from our [Klein Data Pipeline](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/data-processing). This work showcases my expertise in financial modeling, data visualization, retention analysis, and strategic growth planning.
 
 ## Skills Demonstrated
 
@@ -15,6 +15,7 @@ This financial analysis explored Lifetime Value to Customer Acquisition Cost (LT
 - **Data Visualization**: Crafted a dual-axis plot and cohort retention graph with custom labels.
 - **Ethical Data Handling**: Hardcoded data for team use while protecting financials; rescoped for transparency.
 - **Cohort Analysis**: Quantified retention by first payment month to explain CAC and LTV patterns.
+- **Strategic Growth Planning**: Identified scaling opportunities to achieve "escape velocity" for revenue growth.
 
 ## Project Structure
 
@@ -36,6 +37,7 @@ The analysis combines two R scripts with data from the Klein Data Pipeline:
 - **Cohort Insight**: Showed stickiness in Aug, Sep, and Oct 2023 cohorts, driving CAC reduction and LTV stability.
 - **Scoped Precision**: Focused on the pilot phase for mature data.
 - **Practical Approach**: Hardcoded data for usability and confidentiality.
+- **Low Overhead**: Maintained impressively low overhead costs, enabling efficient scaling potential.
 
 ## Technologies Used
 
@@ -64,6 +66,10 @@ Scripts and outputs are hosted in the [`financial-analysis`](https://github.com/
 2. **LTV/CAC Analysis**: Calculated LTV/CAC ratios, ran regression for trends (R² = 0.65), and visualized in a dual-axis plot.
 3. **Cohort Retention**: Split users by first payment month (Aug, Sep, Oct 2023), measured retention, and visualized in a cohort plot.
 4. **Output**: Generated `LTV_CAC_Graph_Pilot.jpeg` and `cohort_retention_by_join_month.jpeg`, used to secure funding.
+
+## Why the $30,000 Funding? Achieving Escape Velocity
+
+Despite the pilot’s success—low overhead, a strong LTV/CAC ratio (R² = 0.65), and cohort stickiness driving efficiency—the scale of our marketing campaigns was too small to achieve significant revenue growth. The pilot operated on a limited scope, reaching only a niche audience. While our overhead costs remained impressively low, the marketing efforts lacked the scale to "get out of orbit" and reach a broader market. The final "Get Out of Orbit" graph presented to investors illustrated this concept, formally known as **scaling for escape velocity**. This term describes the point where a business achieves sufficient growth momentum to break free from initial constraints (e.g., small market reach) and attain exponential revenue growth. The $30,000 funding is crucial to scale marketing efforts, allowing us to expand our reach while maintaining low overhead, thus achieving the "escape velocity" needed for sustainable, orbit-breaking growth.
 
 ## Challenges and Solutions
 
