@@ -1,86 +1,87 @@
-# Financial Projections for Investor Pitch
+# Financial Projections Analysis
 
 ## Reflections on Bias and Ethics
 
-This project stretched my understanding of bias and ethics in data analysis and presentation. Tasked with creating financial projections to secure $30,000 from investors after our fitness app’s pilot campaign, we faced a critical question: where’s the line between letting the data tell our story and using it to craft a narrative? We’re not Facebook with skyrocketing numbers, but there *is* promise in our results. The challenge was to showcase that potential—doing justice to our pilot data—without crossing into bias. Early attempts showed a weak LTV/CAC trend (R² = 0.09) due to recent, immature campaigns. By rescoping to the pilot phase (Aug 2023 - Mar 2024), we clarified the story ethically, balancing transparency with persuasion—a lesson I carry into all my analytical work.
+This project pushed me to grapple with bias and ethics in data analysis. Working with financial projections from our fitness app’s pilot campaign, I faced a key challenge: how to tell a truthful story with modest data without overreaching? Early attempts showed a weak LTV/CAC trend (R² = 0.09) due to recent, incomplete campaigns. By rescoping to the pilot phase (Aug 2023 - Mar 2024) and uncovering cohort stickiness by first payment month, I refined the analysis ethically—balancing data integrity with insight. This work secured $30,000 in funding, proving its impact, and honed my analytical skills for real-world challenges.
 
 ## Overview
 
-This financial analysis supported a successful pitch to raise $30,000 from investors following our fitness app’s pilot campaign. It focuses on projecting the Lifetime Value to Customer Acquisition Cost (LTV/CAC) ratio—a key metric for investors—using data from the initial pilot phase (August 2023 to March 2024). Built in R, Version 2 of the analysis examines trends post-August 2023 marketing push, visualizes LTV and CAC over time, and includes a trendline to highlight growth potential. The output, a dual-axis plot, was used in our investor deck to demonstrate scalability and promise, showcasing my skills in financial modeling, data visualization, and ethical storytelling.
+This financial analysis explored Lifetime Value to Customer Acquisition Cost (LTV/CAC) trends using pilot data from our fitness app (August 2023 to March 2024), contributing to a $30,000 funding win. Built in R, Version 2 of the project analyzes the post-launch period, revealing how stickiness in early cohorts (Aug, Sep, Oct 2023) drove a drop in CAC and sustained LTV. The output—a dual-axis LTV/CAC plot with regression trendline (R² = 0.65)—was enhanced by cohort retention analysis using subscription data from our [Klein Data Pipeline](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/data-processing). This work showcases my expertise in financial modeling, data visualization, and retention analysis for data-driven decision-making.
 
 ## Skills Demonstrated
 
-- **Financial Analysis**: Calculated and projected LTV/CAC ratios to assess business viability.
-- **R Programming**: Used `ggplot2`, `tidyr`, and `scales` for data manipulation and visualization.
-- **Data Visualization**: Designed a dual-axis plot with trendline and R² annotation for clear communication.
-- **Ethical Data Handling**: Hardcoded summarized metrics to protect sensitive financial data while enabling team collaboration; rescoped analysis for transparency.
-- **Statistical Modeling**: Applied linear regression to quantify trends in LTV/CAC growth.
+- **Financial Analysis**: Projected LTV/CAC ratios (R² = 0.65) and linked trends to cohort retention.
+- **R Programming**: Used `ggplot2`, `tidyr`, and `scales` for visualization; `dplyr` and `lubridate` for cohort analysis.
+- **Data Visualization**: Crafted a dual-axis plot and cohort retention graph with custom labels.
+- **Ethical Data Handling**: Hardcoded data for team use while protecting financials; rescoped for transparency.
+- **Cohort Analysis**: Quantified retention by first payment month to explain CAC and LTV patterns.
 
 ## Project Structure
 
-The analysis is driven by a single R script, refined in Version 2:
+The analysis combines two R scripts with data from the Klein Data Pipeline:
 
-1. **Data Input**:
-   - Hardcoded a data frame with monthly LTV and CAC values from August 2023 to March 2024, reflecting the pilot phase post-August marketing campaign.
-   - Hardcoding simplified use for interns and safeguarded core financials.
+1. **LTV/CAC Analysis**:
+   - Hardcoded monthly LTV and CAC values (Aug 2023 - Mar 2024) for the pilot phase.
+   - Computed LTV/CAC ratios and ran regression to quantify trends (R² = 0.65).
+   - Visualized results in a dual-axis plot.
 
-2. **Processing**:
-   - Calculated the LTV/CAC ratio for each month.
-   - Performed linear regression on the scaled ratio to assess trend strength (R²).
-
-3. **Visualization**:
-   - Created a dual-axis plot with:
-     - Bars for LTV and CAC (in USD).
-     - A line for the LTV/CAC ratio (scaled by 10) with a dotted trendline.
-     - R² annotation to quantify trend reliability.
-   - Saved as JPEG and PDF for the investor pitch deck.
+2. **Cohort Retention Analysis**:
+   - Used subscription data (`subscriptions.csv`) to split cohorts by first payment month (Aug, Sep, Oct 2023).
+   - Measured retention duration to explain CAC drop and LTV stability.
+   - Visualized retention in a cohort plot with custom labels.
 
 ## Key Features
 
-- **Investor Focus**: Emphasized LTV/CAC, the top metric requested by investors.
-- **Scoped Clarity**: Limited to pilot phase (Aug 2023 - Mar 2024) to reflect mature data, excluding recent campaigns with incomplete LTV.
-- **Practical Design**: Hardcoded data for accessibility and confidentiality.
-- **Visual Insight**: Dual-axis plot with statistical trendline balances metrics and growth potential.
+- **Business Impact**: Secured $30,000 in funding through data-backed insights.
+- **Cohort Insight**: Showed stickiness in Aug, Sep, and Oct 2023 cohorts, driving CAC reduction and LTV stability.
+- **Scoped Precision**: Focused on the pilot phase for mature data.
+- **Practical Approach**: Hardcoded data for usability and confidentiality.
 
 ## Technologies Used
 
 - **R**: Core language for analysis and visualization.
 - **Libraries**:
-  - `ggplot2`: Plot creation and customization.
-  - `tidyr`: Data reshaping for plotting.
-  - `scales`: Axis formatting.
-- **Output**: JPEG and PDF files for pitch deck integration.
+  - `ggplot2`, `tidyr`, `scales`: Plotting and data reshaping.
+  - `dplyr`, `lubridate`: Cohort analysis and date handling.
+- **Data**: Hardcoded LTV/CAC; subscription CSV from Klein Data Pipeline.
+- **Output**: JPEG plots for reporting.
 - **Git/GitHub**: Version control and hosting.
 
-## How to View the Code
+## How to View the Code and Outputs
 
-The script is hosted in the [`financial-analysis`](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/financial-analysis) directory:
-- [`ltv_cac_analysis.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/scripts/ltv_cac_analysis.R): Version 2 of the script for LTV/CAC calculation, regression, and visualization (pilot phase).
+Scripts and outputs are hosted in the [`financial-analysis`](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/financial-analysis) directory:
+- [`ltv_cac_analysis.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/scripts/ltv_cac_analysis.R): LTV/CAC trends and visualization (pilot phase).
+- [`cohort_retention_by_join_month.R`](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/scripts/cohort_retention_by_join_month.R): Retention analysis by first payment month (Aug, Sep, Oct 2023).
+- **Plots**:
+  - [LTV/CAC Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/graphs/LTV_CAC_Graph_Pilot.jpeg): Dual-axis plot of LTV, CAC, and ratio.
+  - [Cohort Retention Plot](https://github.com/HunterKleinschmidt/analytics-portfolio/blob/main/financial-analysis/graphs/cohort_retention_by_join_month.jpeg): Retention by join month cohort.
+
+*Data source*: Subscription data from the [Klein Data Pipeline](https://github.com/HunterKleinschmidt/analytics-portfolio/tree/main/data-processing) (not uploaded).
 
 ## How It Works
 
-1. **Data Setup**: A manual data frame holds 8 months of LTV and CAC data (Aug 2023 - Mar 2024), hardcoded for simplicity and security.
-2. **Analysis**: Computes the LTV/CAC ratio and runs a linear regression on the scaled ratio to measure trend strength.
-3. **Visualization**: Plots LTV and CAC as bars, overlays the LTV/CAC ratio as a line with a trendline, and annotates R².
-4. **Output**: Exports the plot as `LTV_CAC_Graph_Pilot.jpeg` and `LTV_CAC_Graph_Pilot.pdf` for investor use.
+1. **Data Setup**: Hardcoded 8 months of LTV and CAC data (Aug 2023 - Mar 2024); used `subscriptions.csv` for cohort splits.
+2. **LTV/CAC Analysis**: Calculated LTV/CAC ratios, ran regression for trends (R² = 0.65), and visualized in a dual-axis plot.
+3. **Cohort Retention**: Split users by first payment month (Aug, Sep, Oct 2023), measured retention, and visualized in a cohort plot.
+4. **Output**: Generated `LTV_CAC_Graph_Pilot.jpeg` and `cohort_retention_by_join_month.jpeg`, used to secure funding.
 
 ## Challenges and Solutions
 
-- **Bias vs. Promise**: 
-  - *Challenge*: Initial analysis showed a weak LTV/CAC trend (R² = 0.09) due to recent, immature campaigns (April/May 2024).
-  - *Solution*: Rescoped to the pilot phase (Aug 2023 - Mar 2024), excluding recent data with incomplete LTV, and used a trendline with improved R² to ground optimism in evidence.
-- **Limited Data Access**: 
-  - *Challenge*: Protecting sensitive financials from interns unfamiliar with R.
-  - *Solution*: Hardcoded summarized metrics, simplifying the process while maintaining confidentiality.
-- **Small Sample Size**: 
-  - *Challenge*: Limited to 8 months of mature data after rescoping.
-  - *Solution*: Focused on the proven "trickle" effect from the August 2023 campaign, emphasizing trend over absolute forecasts.
+- **Bias vs. Insight**: 
+  - *Challenge*: Initial LTV/CAC trend was weak (R² = 0.09) due to recent campaigns.
+  - *Solution*: Rescoped to the pilot phase, improving trend clarity (R² = 0.65) and integrity.
+- **Explaining Trends**: 
+  - *Challenge*: Understanding CAC drop after two months with steady LTV.
+  - *Solution*: Analyzed retention by first payment month, showing early cohort stickiness drove efficiency.
+- **Team Constraints**: 
+  - *Challenge*: Enabling interns without exposing raw financials.
+  - *Solution*: Hardcoded summarized data for ease and security.
 
 ## Future Improvements
 
-- Integrate live data from a secure database instead of hardcoding.
-- Expand to include additional metrics (e.g., churn rate, revenue growth).
-- Automate plot generation and integration into a reporting pipeline.
+- Integrate campaign metadata for precise cohort tracking.
+- Expand with metrics like churn rate or cohort-specific LTV.
+- Automate cohort visualization into a reporting workflow.
 
 ## Contact
 
