@@ -20,8 +20,8 @@ Browse each corner of my analytical world below. Each project highlights a diffe
   Analyzed product performance using SQL and Excel, with insights visualized in an interactive Tableau dashboard.  
   *Tools*: SQL, Excel, Tableau
 
-- **[Financial Analysis with R](./financial-analysis/)**  
-  Conducted a 2024 financial analysis for Klein Training using R, identifying cost trends and revenue drivers in a startup environment. Note: Some details are vague due to the confidential nature of financials at a private institution.  
+- **[Pilot Growth Analysis with R](./pilot-growth-analysis/)**  
+  Conducted a 2024 pilot growth analysis for Klein Training using R, identifying LTV/CAC trends and LTV drivers  through cohort analysis in a startup environment. Note: Some details are vague due to the confidential nature of financials at a private institution.  
   *Tools*: R
 
 - **[Leading Analysts](./leading-analysts/)**  
