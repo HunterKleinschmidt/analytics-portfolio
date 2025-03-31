@@ -8,7 +8,7 @@ At Klein Training, our backend database hasn’t scaled to a point where SQL is 
 ---
 
 ## Objective
-Assess whether the Klein Training app’s exercise options match equipment popularity among 1,000+ users, comparing user-selected "My Gym" preferences to available exercises, with a sub-analysis for users selecting 2 or fewer equipment types (limited equipment users).
+Assess whether the Klein Training app’s exercise options match equipment popularity among 1,000+ users, comparing user-selected "My Gym" preferences to available exercises, with a sub-analysis for users selecting 2 or fewer equipment types (limited equipment users). Improve stakeholder decision-making and resource allocation when users complain about exercise variety, determining if the issue stems from missing exercises or the need for program adjustments.
 
 ---
 
