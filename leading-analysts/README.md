@@ -2,13 +2,13 @@
 
 As Lead Data Analyst at Klein Training, I guided a team of data science interns through impactful analytics projects in a dynamic startup setting. My leadership blended technical mentorship with strategic oversight, delivering tools and insights that fueled data-driven decisions—all while navigating the confidentiality and ambiguity of a private company.
 
-Below are three projects spanning 2023–2024 that highlight my management approach, from defining objectives to driving results.
+Below are three projects spanning 2023–2024 that highlight my approach to leading analysts, from defining objectives to driving results.
 
 ---
 
 ## My Leadership Approach
-- **Role**: Lead Data Analyst & Project Manager
-- **Duration**: January 2023 – August 2024
+- **Role**: Lead Data Analyst
+- **Duration**: December 2021 – August 2024
 - **Team**: 3 Data Science Interns
 - **Strategies**:
   - **Structured Planning**: Partnered with interns to craft tailored Statements of Work (SOWs), ensuring clarity, focus, and alignment with business goals.
@@ -72,4 +72,4 @@ Below are three projects spanning 2023–2024 that highlight my management appro
 ---
 
 ## Let’s Talk
-These experiences sharpened my knack for leading teams, aligning tech with business, and delivering under pressure—skills I’d love to bring to your organization. Reach out at [hunter@kleinstrength.com](mailto:hunter@kleinstrength.com) to chat!
+These experiences sharpened my knack for leading analysts, aligning tech with business, and delivering under pressure—skills I’d love to bring to your organization. Reach out at [hunter@kleinstrength.com](mailto:hunter@kleinstrength.com) to chat!
