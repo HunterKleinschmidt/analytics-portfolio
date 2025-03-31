@@ -129,6 +129,9 @@ Comparing all users, limited equipment users, and exercise availability:
 - **All Users**: Dumbbells (61.86%) and Barbell & Plates (34.17%) dominate, but Barbell & Plates has fewer exercises (40) relative to demand.
 - **Limited Equipment Users**: Bodyweight (52.93%) and Dumbbells (37.24%) lead, reflecting simpler setups. Barbell & Plates drops to 3.37%, suggesting it’s less critical for this group.
 - **Exercise Supply**: Bodyweight (123) and Dumbbells (78) are well-covered, but Bands (27) and Kettlebells (25) could expand to meet demand from all users (27.01% and 23.90%).
+- **Limited Equipment User**: Focused on their reliance on Bodyweight and Dumbbells, suggesting variety complaints might reflect overuse rather than lack of options.
+- **Standard Gym User**: Highlighted supply-demand mismatches (e.g., Barbell & Plates), proposing targeted exercise additions.
+- **Broader Takeaways**: Tied it back to overall alignment and complaint resolution strategies.
 
 ---
 
