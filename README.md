@@ -18,7 +18,7 @@ Browse each corner of my analytical world below. Each project highlights a diffe
 
 - **[Product Analysis with Excel and SQL](./product-analysis/)**  
   Analyzed equipment preferences vs. exercise availability using Excel and SQL, identifying supply-demand gaps to inform product strategy. A Tableau dashboard is planned to visualize insights for stakeholders.  
-  *Tools*: Excel, SQL, Tableau (planned)
+  *Tools*: Excel, SQL, Tableau
 
 - **[Pilot Growth Analysis with R](./pilot-growth-analysis/)**  
   Conducted a 2024 pilot growth analysis for Klein Training using R, analyzing LTV/CAC trends (R² = 0.65) and cohort retention to secure $30,000 in funding for marketing scale-up.  
