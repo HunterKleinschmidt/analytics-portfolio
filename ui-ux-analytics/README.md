@@ -19,7 +19,7 @@ Design user-facing visualizations to:
 
 I designed a collection of visualizations to display user progress, such as workout trends and equipment usage patterns. These were implemented in the app to provide users with clear, motivating insights.
 
-Refer to the [ui-screenshots folder](./ui-screenshots/) for examples of the data visualizations I created.
+Refer to the attached images above for examples of the data visualizations I created.
 
 ## Impact
 
