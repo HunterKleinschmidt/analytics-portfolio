@@ -33,8 +33,3 @@ This work demonstrates my ability to:
 - Communicate complex data through user-friendly visualizations.
 - Drive business outcomes (e.g., engagement, retention) with data presentation.
 - Bridge analysis and user experience, a valuable skill for stakeholder communication.
-
-## Next Steps
-
-- Expand visualizations with more interactive features.
-- Continue data analysis in [product-analysis](../product-analysis/README.md) with SQL and Tableau.
