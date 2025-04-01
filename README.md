@@ -5,7 +5,7 @@ Welcome to a curated selection of analytics projects I’ve worked on over the p
 My goal is to showcase my analytical skills while keeping things concise. I’ve handpicked one project from each "field" of analytics I’ve worked in, reflecting the diverse roles I’ve taken on in my career.
 
 ## A Bit About My Journey  
-In a startup environment like Klein Training, versatility is key. My analytical journey began in academia, where I tackled projects like glioblastoma cell death rates and atrazine concentrations in water (collecting and analyzing the data myself). I’ve since worked with large-scale datasets I didn’t collect, including dietary data, financial projections, and user behaviors.
+In a startup environment like Klein Training, versatility is key. My analytical journey began in academia, where I collected and analyzed data myself on projects like glioblastoma cell death rates and atrazine concentrations in water. I’ve since worked with unfamiliar datasets I did not collect, such as financial projections and user behaviors, as well as large-scale data on dietary trends and more.
 
 My toolkit has evolved over time. Early on, I relied on Excel and R. During my graduate studies at ASU, I developed Python skills to keep pace with peers. At Klein Training, I honed SQL and Tableau expertise to support scalable databases as we prepare to grow our data science department with an expanding user base.
 
