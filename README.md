@@ -5,7 +5,7 @@ Welcome to a curated selection of analytics projects I’ve worked on over the p
 My goal is to showcase my analytical skills while keeping things concise. I’ve handpicked one project from each "field" of analytics I’ve worked in, reflecting the diverse roles I’ve taken on in my career.
 
 ## A Bit About My Journey  
-In a startup environment like Klein Training, versatility is key. My analytical journey began in academia, where I collected and analyzed data myself on projects like glioblastoma cell death rates and atrazine concentrations in water. I’ve since worked with unfamiliar datasets I did not collect, such as financial projections and user behaviors, as well as large-scale data on dietary trends and more.
+In a startup environment like Klein Training, versatility is key. My analytical journey began in academia, where I collected and analyzed data myself on projects like retargeted bacterial toxins as a potential cure for glioblastoma and atrazine concentrations in water. For the majority of my career, I’ve worked hands-on with data collection and analysis, but I’ve also adapted to unfamiliar datasets I did not collect, such as a dietary food moisture dataset during my graduate studies at ASU, as well as financial projections and user behaviors at Klein Training.
 
 My toolkit has evolved over time. Early on, I relied on Excel and R. During my graduate studies at ASU, I developed Python skills to keep pace with peers. At Klein Training, I honed SQL and Tableau expertise to support scalable databases as we prepare to grow our data science department with an expanding user base.
 
@@ -13,8 +13,8 @@ My toolkit has evolved over time. Early on, I relied on Excel and R. During my g
 Browse each corner of my analytical world below. Each project highlights a different facet of my expertise:
 
 - **[Data Processing with Python](./data-processing/)**  
-  Built an end-to-end ETL pipeline to transform Firebase data into a MySQL database for a fitness app, showcasing data engineering, automation, and scalability planning.  
-  *Tools*: Python, MySQL
+  Built an end-to-end ETL pipeline to transform Firebase data into a relational database format for a fitness app, showcasing data engineering, automation, and scalability planning.  
+  *Tools*: Python
 
 - **[Product Analysis with Excel and SQL](./product-analysis/)**  
   Analyzed equipment preferences vs. exercise availability using Excel and SQL, identifying supply-demand gaps to inform product strategy. A Tableau dashboard is planned to visualize insights for stakeholders.  
