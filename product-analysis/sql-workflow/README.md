@@ -36,7 +36,7 @@ FROM `kleintrainingapp.mygymdata.user_equipment`;
 
 The "All Users" query calculates equipment popularity across all 1,159 users by counting distinct users per equipment type, matching the deduplicated Excel output.
 
-```
+```sql
 SELECT 
     equipment,
     COUNT(DISTINCT user_id) AS quantity,
@@ -70,7 +70,7 @@ ORDER BY quantity DESC;
 
 The "Limited Equipment Users" query focuses on 682 users with ≤ 2 equipment types, ensuring all 13 equipment types appear (including zeros) to match Excel’s output.
 
-```
+```sql
 WITH equipment_counts AS (
     SELECT 
         user_id,
